@@ -57,11 +57,6 @@
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/gui/components/ExportJar.java:[63,17] the.bytecode.club.bytecodeviewer.util.JarUtils in the.bytecode.club.bytecodeviewer.util has been deprecated
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/gui/components/ExportJar.java:[63,50] getLoadedClasses() in the.bytecode.club.bytecodeviewer.BytecodeViewer has been deprecated
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/gui/resourceviewer/BytecodeViewPanel.java:[92,37] the.bytecode.club.bytecodeviewer.util.JarUtils in the.bytecode.club.bytecodeviewer.util has been deprecated
-[WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/gui/hexviewer/HexViewer.java:[245,57] getMenuShortcutKeyMask() in java.awt.Toolkit has been deprecated
-[WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/gui/hexviewer/HexViewer.java:[247,30] java.awt.Event in java.awt has been deprecated
-[WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/gui/hexviewer/HexViewer.java:[249,30] java.awt.Event in java.awt has been deprecated
-[WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/gui/hexviewer/HexViewer.java:[251,30] java.awt.Event in java.awt has been deprecated
-[WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/gui/tabpopup/TabPopupEvent.java:[32,58] getModifiers() in java.awt.event.InputEvent has been deprecated
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/plugin/preinstalled/EZInjection.java:[243,47] getLoadedClasses() in the.bytecode.club.bytecodeviewer.BytecodeViewer has been deprecated
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/resources/ResourceDecompiling.java:[98,17] the.bytecode.club.bytecodeviewer.util.JarUtils in the.bytecode.club.bytecodeviewer.util has been deprecated
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/resources/ResourceDecompiling.java:[98,61] getLoadedClasses() in the.bytecode.club.bytecodeviewer.BytecodeViewer has been deprecated
@@ -75,10 +70,9 @@
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/resources/importing/impl/APKResourceImporter.java:[55,40] the.bytecode.club.bytecodeviewer.util.JarUtils in the.bytecode.club.bytecodeviewer.util has been deprecated
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/resources/importing/impl/ClassResourceImporter.java:[50,38] the.bytecode.club.bytecodeviewer.util.JarUtils in the.bytecode.club.bytecodeviewer.util has been deprecated
 [WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/resources/importing/impl/DirectoryResourceImporter.java:[86,50] the.bytecode.club.bytecodeviewer.util.JarUtils in the.bytecode.club.bytecodeviewer.util has been deprecated
-[WARNING] /data/code/src/main/java/the/bytecode/club/bytecodeviewer/util/PingBack.java:[39,29] URL(java.lang.String) in java.net.URL has been deprecated
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  40.290 s
-[INFO] Finished at: 2026-05-12T06:24:10Z
+[INFO] Total time:  41.693 s
+[INFO] Finished at: 2026-05-12T06:26:13Z
 [INFO] ------------------------------------------------------------------------
