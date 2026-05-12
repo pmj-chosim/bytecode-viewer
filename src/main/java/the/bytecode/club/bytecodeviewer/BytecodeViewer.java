@@ -153,6 +153,15 @@ public class BytecodeViewer
     private static final TaskManager TASK_MANAGER = new TaskManager();
 
     /**
+     * Sets the SecurityManager with removal warning suppressed.
+     */
+    @SuppressWarnings("removal")
+    private static void setSecurityManagerSafely(SecurityManager sm)
+    {
+        System.setSecurityManager(sm);
+    }
+
+    /**
      * Main startup
      *
      * @param args files you want to open or CLI
@@ -172,7 +181,7 @@ public class BytecodeViewer
         // Set the security manager
         try
         {
-            System.setSecurityManager(sm);
+            setSecurityManagerSafely(sm);
         }
         catch (Throwable t)
         {
