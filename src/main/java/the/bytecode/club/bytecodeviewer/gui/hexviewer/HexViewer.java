@@ -242,13 +242,14 @@ public class HexViewer extends JPanel
     {
         try
         {
-            switch (java.awt.Toolkit.getDefaultToolkit().getMenuShortcutKeyMask())
+            int mask = java.awt.Toolkit.getDefaultToolkit().getMenuShortcutKeyMaskEx();
+            switch (mask)
             {
-                case java.awt.Event.META_MASK:
+                case java.awt.event.InputEvent.META_DOWN_MASK:
                     return KeyEvent.META_DOWN_MASK;
-                case java.awt.Event.SHIFT_MASK:
+                case java.awt.event.InputEvent.SHIFT_DOWN_MASK:
                     return KeyEvent.SHIFT_DOWN_MASK;
-                case java.awt.Event.ALT_MASK:
+                case java.awt.event.InputEvent.ALT_DOWN_MASK:
                     return KeyEvent.ALT_DOWN_MASK;
                 default:
                     return KeyEvent.CTRL_DOWN_MASK;
